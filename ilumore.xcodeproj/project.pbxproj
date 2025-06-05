@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F5D265A2DEFE1FC0085641B /* ilumoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D26592DEFE1FC0085641B /* ilumoreApp.swift */; };
+		3F5D265C2DEFE1FC0085641B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5D265B2DEFE1FC0085641B /* ContentView.swift */; };
+		3F5D265E2DEFE1FE0085641B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D265D2DEFE1FE0085641B /* Assets.xcassets */; };
+		3F5D26612DEFE1FE0085641B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5D26602DEFE1FE0085641B /* Preview Assets.xcassets */; };
+		3F674CA12DF141AD00F3B611 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F674CA02DF141AC00F3B611 /* GoogleService-Info.plist */; };
+		3F674CA32DF141F200F3B611 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F674CA22DF141F200F3B611 /* FirebaseManager.swift */; };
+		3F674CA52DF1426A00F3B611 /* LoveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F674CA42DF1426A00F3B611 /* LoveData.swift */; };
+		3F674CB12DF144FC00F3B611 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F674CB02DF144FC00F3B611 /* RootView.swift */; };
+		3F674CB32DF1450400F3B611 /* ConnectScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F674CB22DF1450400F3B611 /* ConnectScreen.swift */; };
+		3F674CB52DF1454B00F3B611 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F674CB42DF1454B00F3B611 /* AuthView.swift */; };
+		3F674CB72DF1454F00F3B611 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F674CB62DF1454F00F3B611 /* MainScreen.swift */; };
+		3F674CBB2DF14E5B00F3B611 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F674CBA2DF14E5B00F3B611 /* AppState.swift */; };
+		3F6A99D02DF15928001A88D4 /* PixelifySans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99CF2DF15927001A88D4 /* PixelifySans-Medium.ttf */; };
+		3F6A99D52DF16BAD001A88D4 /* black_25.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99D12DF16BAC001A88D4 /* black_25.GIF */; };
+		3F6A99D62DF16BAD001A88D4 /* black_50.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99D22DF16BAC001A88D4 /* black_50.GIF */; };
+		3F6A99D72DF16BAD001A88D4 /* black_100.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99D32DF16BAD001A88D4 /* black_100.GIF */; };
+		3F6A99D82DF16BAD001A88D4 /* black_75.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99D42DF16BAD001A88D4 /* black_75.GIF */; };
+		3F6A99E52DF16F12001A88D4 /* orange_75.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99E12DF16F11001A88D4 /* orange_75.GIF */; };
+		3F6A99E62DF16F12001A88D4 /* orange_25.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99E22DF16F12001A88D4 /* orange_25.GIF */; };
+		3F6A99E72DF16F12001A88D4 /* orange_50.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99E32DF16F12001A88D4 /* orange_50.GIF */; };
+		3F6A99E82DF16F12001A88D4 /* orange_100.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99E42DF16F12001A88D4 /* orange_100.GIF */; };
+		3F6A99EF2DF175EE001A88D4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6A99EE2DF175EE001A88D4 /* WidgetKit.framework */; };
+		3F6A99F12DF175EE001A88D4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6A99F02DF175EE001A88D4 /* SwiftUI.framework */; };
+		3F6A99F42DF175EE001A88D4 /* ilumoreWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A99F32DF175EE001A88D4 /* ilumoreWidgetBundle.swift */; };
+		3F6A99F62DF175EE001A88D4 /* ilumoreWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A99F52DF175EE001A88D4 /* ilumoreWidgetLiveActivity.swift */; };
+		3F6A99F82DF175EE001A88D4 /* ilumoreWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A99F72DF175EE001A88D4 /* ilumoreWidget.swift */; };
+		3F6A99FA2DF175EE001A88D4 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6A99F92DF175EE001A88D4 /* AppIntent.swift */; };
+		3F6A99FC2DF175F0001A88D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99FB2DF175F0001A88D4 /* Assets.xcassets */; };
+		3F6A9A002DF175F0001A88D4 /* ilumoreWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3F6A99ED2DF175EE001A88D4 /* ilumoreWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F6A9A072DF1781F001A88D4 /* orange_100.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99E42DF16F12001A88D4 /* orange_100.GIF */; };
+		3F6A9A082DF1781F001A88D4 /* black_50.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99D22DF16BAC001A88D4 /* black_50.GIF */; };
+		3F6A9A092DF1781F001A88D4 /* black_25.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99D12DF16BAC001A88D4 /* black_25.GIF */; };
+		3F6A9A0A2DF1781F001A88D4 /* black_75.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99D42DF16BAD001A88D4 /* black_75.GIF */; };
+		3F6A9A0B2DF1781F001A88D4 /* black_100.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99D32DF16BAD001A88D4 /* black_100.GIF */; };
+		3F6A9A0C2DF1781F001A88D4 /* orange_25.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99E22DF16F12001A88D4 /* orange_25.GIF */; };
+		3F6A9A0D2DF1781F001A88D4 /* orange_50.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99E32DF16F12001A88D4 /* orange_50.GIF */; };
+		3F6A9A0E2DF1781F001A88D4 /* orange_75.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99E12DF16F11001A88D4 /* orange_75.GIF */; };
+		3F6A9A0F2DF17823001A88D4 /* PixelifySans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F6A99CF2DF15927001A88D4 /* PixelifySans-Medium.ttf */; };
+		A72BFE44BEB8CF7165884037 /* Pods_ilumore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 873DB30CA20A4624CAF83883 /* Pods_ilumore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F6A99FE2DF175F0001A88D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F5D264E2DEFE1FC0085641B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F6A99EC2DF175EE001A88D4;
+			remoteInfo = ilumoreWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F6A9A042DF175F0001A88D4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F6A9A002DF175F0001A88D4 /* ilumoreWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F5D26562DEFE1FC0085641B /* ilumore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ilumore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5D26592DEFE1FC0085641B /* ilumoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilumoreApp.swift; sourceTree = "<group>"; };
+		3F5D265B2DEFE1FC0085641B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F5D265D2DEFE1FE0085641B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F5D26602DEFE1FE0085641B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F674CA02DF141AC00F3B611 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3F674CA22DF141F200F3B611 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		3F674CA42DF1426A00F3B611 /* LoveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveData.swift; sourceTree = "<group>"; };
+		3F674CB02DF144FC00F3B611 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		3F674CB22DF1450400F3B611 /* ConnectScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectScreen.swift; sourceTree = "<group>"; };
+		3F674CB42DF1454B00F3B611 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		3F674CB62DF1454F00F3B611 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		3F674CBA2DF14E5B00F3B611 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		3F674CCE2DF1576300F3B611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F6A99CF2DF15927001A88D4 /* PixelifySans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-Medium.ttf"; sourceTree = "<group>"; };
+		3F6A99D12DF16BAC001A88D4 /* black_25.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = black_25.GIF; sourceTree = "<group>"; };
+		3F6A99D22DF16BAC001A88D4 /* black_50.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = black_50.GIF; sourceTree = "<group>"; };
+		3F6A99D32DF16BAD001A88D4 /* black_100.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = black_100.GIF; sourceTree = "<group>"; };
+		3F6A99D42DF16BAD001A88D4 /* black_75.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = black_75.GIF; sourceTree = "<group>"; };
+		3F6A99E12DF16F11001A88D4 /* orange_75.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = orange_75.GIF; sourceTree = "<group>"; };
+		3F6A99E22DF16F12001A88D4 /* orange_25.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = orange_25.GIF; sourceTree = "<group>"; };
+		3F6A99E32DF16F12001A88D4 /* orange_50.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = orange_50.GIF; sourceTree = "<group>"; };
+		3F6A99E42DF16F12001A88D4 /* orange_100.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = orange_100.GIF; sourceTree = "<group>"; };
+		3F6A99ED2DF175EE001A88D4 /* ilumoreWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ilumoreWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6A99EE2DF175EE001A88D4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3F6A99F02DF175EE001A88D4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3F6A99F32DF175EE001A88D4 /* ilumoreWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilumoreWidgetBundle.swift; sourceTree = "<group>"; };
+		3F6A99F52DF175EE001A88D4 /* ilumoreWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilumoreWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		3F6A99F72DF175EE001A88D4 /* ilumoreWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilumoreWidget.swift; sourceTree = "<group>"; };
+		3F6A99F92DF175EE001A88D4 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		3F6A99FB2DF175F0001A88D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F6A99FD2DF175F0001A88D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6A9A052DF1765E001A88D4 /* ilumore.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ilumore.entitlements; sourceTree = "<group>"; };
+		3F6A9A062DF1767E001A88D4 /* ilumoreWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ilumoreWidgetExtension.entitlements; sourceTree = "<group>"; };
+		458DA079A0C5A4D686EE09CD /* Pods-ilumore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ilumore.debug.xcconfig"; path = "Target Support Files/Pods-ilumore/Pods-ilumore.debug.xcconfig"; sourceTree = "<group>"; };
+		57872D6B04EFE6EE4753B78D /* Pods-ilumore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ilumore.release.xcconfig"; path = "Target Support Files/Pods-ilumore/Pods-ilumore.release.xcconfig"; sourceTree = "<group>"; };
+		873DB30CA20A4624CAF83883 /* Pods_ilumore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ilumore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F5D26532DEFE1FC0085641B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72BFE44BEB8CF7165884037 /* Pods_ilumore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A99EA2DF175EE001A88D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A99F12DF175EE001A88D4 /* SwiftUI.framework in Frameworks */,
+				3F6A99EF2DF175EE001A88D4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2233294131A7F92C93C0D913 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				458DA079A0C5A4D686EE09CD /* Pods-ilumore.debug.xcconfig */,
+				57872D6B04EFE6EE4753B78D /* Pods-ilumore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F5D264D2DEFE1FC0085641B = {
+			isa = PBXGroup;
+			children = (
+				3F6A9A062DF1767E001A88D4 /* ilumoreWidgetExtension.entitlements */,
+				3F674CA02DF141AC00F3B611 /* GoogleService-Info.plist */,
+				3F6A99CF2DF15927001A88D4 /* PixelifySans-Medium.ttf */,
+				3F5D26582DEFE1FC0085641B /* ilumore */,
+				3F6A99F22DF175EE001A88D4 /* ilumoreWidget */,
+				3F5D26572DEFE1FC0085641B /* Products */,
+				2233294131A7F92C93C0D913 /* Pods */,
+				B93501F676B8848849020310 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F5D26572DEFE1FC0085641B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F5D26562DEFE1FC0085641B /* ilumore.app */,
+				3F6A99ED2DF175EE001A88D4 /* ilumoreWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F5D26582DEFE1FC0085641B /* ilumore */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A9A052DF1765E001A88D4 /* ilumore.entitlements */,
+				3F674CCE2DF1576300F3B611 /* Info.plist */,
+				3F5D26592DEFE1FC0085641B /* ilumoreApp.swift */,
+				3F674CA22DF141F200F3B611 /* FirebaseManager.swift */,
+				3F674CA42DF1426A00F3B611 /* LoveData.swift */,
+				3F674CB02DF144FC00F3B611 /* RootView.swift */,
+				3F674CB22DF1450400F3B611 /* ConnectScreen.swift */,
+				3F674CB42DF1454B00F3B611 /* AuthView.swift */,
+				3F674CB62DF1454F00F3B611 /* MainScreen.swift */,
+				3F5D265B2DEFE1FC0085641B /* ContentView.swift */,
+				3F6A99D12DF16BAC001A88D4 /* black_25.GIF */,
+				3F6A99D22DF16BAC001A88D4 /* black_50.GIF */,
+				3F6A99D42DF16BAD001A88D4 /* black_75.GIF */,
+				3F6A99D32DF16BAD001A88D4 /* black_100.GIF */,
+				3F6A99E22DF16F12001A88D4 /* orange_25.GIF */,
+				3F6A99E32DF16F12001A88D4 /* orange_50.GIF */,
+				3F6A99E12DF16F11001A88D4 /* orange_75.GIF */,
+				3F6A99E42DF16F12001A88D4 /* orange_100.GIF */,
+				3F5D265D2DEFE1FE0085641B /* Assets.xcassets */,
+				3F674CBA2DF14E5B00F3B611 /* AppState.swift */,
+				3F5D265F2DEFE1FE0085641B /* Preview Content */,
+			);
+			path = ilumore;
+			sourceTree = "<group>";
+		};
+		3F5D265F2DEFE1FE0085641B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F5D26602DEFE1FE0085641B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F6A99F22DF175EE001A88D4 /* ilumoreWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3F6A99F32DF175EE001A88D4 /* ilumoreWidgetBundle.swift */,
+				3F6A99F52DF175EE001A88D4 /* ilumoreWidgetLiveActivity.swift */,
+				3F6A99F72DF175EE001A88D4 /* ilumoreWidget.swift */,
+				3F6A99F92DF175EE001A88D4 /* AppIntent.swift */,
+				3F6A99FB2DF175F0001A88D4 /* Assets.xcassets */,
+				3F6A99FD2DF175F0001A88D4 /* Info.plist */,
+			);
+			path = ilumoreWidget;
+			sourceTree = "<group>";
+		};
+		B93501F676B8848849020310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				873DB30CA20A4624CAF83883 /* Pods_ilumore.framework */,
+				3F6A99EE2DF175EE001A88D4 /* WidgetKit.framework */,
+				3F6A99F02DF175EE001A88D4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F5D26552DEFE1FC0085641B /* ilumore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5D26642DEFE1FE0085641B /* Build configuration list for PBXNativeTarget "ilumore" */;
+			buildPhases = (
+				69CD1FEBC328C5B7A7A40364 /* [CP] Check Pods Manifest.lock */,
+				3F5D26522DEFE1FC0085641B /* Sources */,
+				3F5D26532DEFE1FC0085641B /* Frameworks */,
+				3F5D26542DEFE1FC0085641B /* Resources */,
+				A3E22DE382181EF4B62B5DCB /* [CP] Embed Pods Frameworks */,
+				3F6A9A042DF175F0001A88D4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F6A99FF2DF175F0001A88D4 /* PBXTargetDependency */,
+			);
+			name = ilumore;
+			productName = ilumore;
+			productReference = 3F5D26562DEFE1FC0085641B /* ilumore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F6A99EC2DF175EE001A88D4 /* ilumoreWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F6A9A012DF175F0001A88D4 /* Build configuration list for PBXNativeTarget "ilumoreWidgetExtension" */;
+			buildPhases = (
+				3F6A99E92DF175EE001A88D4 /* Sources */,
+				3F6A99EA2DF175EE001A88D4 /* Frameworks */,
+				3F6A99EB2DF175EE001A88D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ilumoreWidgetExtension;
+			productName = ilumoreWidgetExtension;
+			productReference = 3F6A99ED2DF175EE001A88D4 /* ilumoreWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F5D264E2DEFE1FC0085641B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3F5D26552DEFE1FC0085641B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3F6A99EC2DF175EE001A88D4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 3F5D26512DEFE1FC0085641B /* Build configuration list for PBXProject "ilumore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F5D264D2DEFE1FC0085641B;
+			productRefGroup = 3F5D26572DEFE1FC0085641B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F5D26552DEFE1FC0085641B /* ilumore */,
+				3F6A99EC2DF175EE001A88D4 /* ilumoreWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F5D26542DEFE1FC0085641B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A99D82DF16BAD001A88D4 /* black_75.GIF in Resources */,
+				3F6A99D02DF15928001A88D4 /* PixelifySans-Medium.ttf in Resources */,
+				3F6A99D52DF16BAD001A88D4 /* black_25.GIF in Resources */,
+				3F5D26612DEFE1FE0085641B /* Preview Assets.xcassets in Resources */,
+				3F6A99E52DF16F12001A88D4 /* orange_75.GIF in Resources */,
+				3F6A99E72DF16F12001A88D4 /* orange_50.GIF in Resources */,
+				3F6A99E62DF16F12001A88D4 /* orange_25.GIF in Resources */,
+				3F5D265E2DEFE1FE0085641B /* Assets.xcassets in Resources */,
+				3F6A99D72DF16BAD001A88D4 /* black_100.GIF in Resources */,
+				3F674CA12DF141AD00F3B611 /* GoogleService-Info.plist in Resources */,
+				3F6A99E82DF16F12001A88D4 /* orange_100.GIF in Resources */,
+				3F6A99D62DF16BAD001A88D4 /* black_50.GIF in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A99EB2DF175EE001A88D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A9A0F2DF17823001A88D4 /* PixelifySans-Medium.ttf in Resources */,
+				3F6A9A072DF1781F001A88D4 /* orange_100.GIF in Resources */,
+				3F6A9A082DF1781F001A88D4 /* black_50.GIF in Resources */,
+				3F6A9A092DF1781F001A88D4 /* black_25.GIF in Resources */,
+				3F6A9A0A2DF1781F001A88D4 /* black_75.GIF in Resources */,
+				3F6A9A0B2DF1781F001A88D4 /* black_100.GIF in Resources */,
+				3F6A9A0C2DF1781F001A88D4 /* orange_25.GIF in Resources */,
+				3F6A9A0D2DF1781F001A88D4 /* orange_50.GIF in Resources */,
+				3F6A9A0E2DF1781F001A88D4 /* orange_75.GIF in Resources */,
+				3F6A99FC2DF175F0001A88D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69CD1FEBC328C5B7A7A40364 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ilumore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E22DE382181EF4B62B5DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ilumore/Pods-ilumore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ilumore/Pods-ilumore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ilumore/Pods-ilumore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5D26522DEFE1FC0085641B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F674CB32DF1450400F3B611 /* ConnectScreen.swift in Sources */,
+				3F674CB72DF1454F00F3B611 /* MainScreen.swift in Sources */,
+				3F674CA32DF141F200F3B611 /* FirebaseManager.swift in Sources */,
+				3F674CBB2DF14E5B00F3B611 /* AppState.swift in Sources */,
+				3F674CB12DF144FC00F3B611 /* RootView.swift in Sources */,
+				3F674CA52DF1426A00F3B611 /* LoveData.swift in Sources */,
+				3F5D265C2DEFE1FC0085641B /* ContentView.swift in Sources */,
+				3F674CB52DF1454B00F3B611 /* AuthView.swift in Sources */,
+				3F5D265A2DEFE1FC0085641B /* ilumoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6A99E92DF175EE001A88D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F6A99F82DF175EE001A88D4 /* ilumoreWidget.swift in Sources */,
+				3F6A99FA2DF175EE001A88D4 /* AppIntent.swift in Sources */,
+				3F6A99F62DF175EE001A88D4 /* ilumoreWidgetLiveActivity.swift in Sources */,
+				3F6A99F42DF175EE001A88D4 /* ilumoreWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F6A99FF2DF175F0001A88D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F6A99EC2DF175EE001A88D4 /* ilumoreWidgetExtension */;
+			targetProxy = 3F6A99FE2DF175F0001A88D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F5D26622DEFE1FE0085641B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F5D26632DEFE1FE0085641B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F5D26652DEFE1FE0085641B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458DA079A0C5A4D686EE09CD /* Pods-ilumore.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ilumore/ilumore.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ilumore/Preview Content\"";
+				DEVELOPMENT_TEAM = 76KZ9G4542;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ilumore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lovesulei.ilumore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F5D26662DEFE1FE0085641B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57872D6B04EFE6EE4753B78D /* Pods-ilumore.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ilumore/ilumore.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ilumore/Preview Content\"";
+				DEVELOPMENT_TEAM = 76KZ9G4542;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ilumore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lovesulei.ilumore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F6A9A022DF175F0001A88D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ilumoreWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 76KZ9G4542;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ilumoreWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ilumoreWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lovesulei.ilumore.ilumoreWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F6A9A032DF175F0001A88D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = ilumoreWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 76KZ9G4542;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ilumoreWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ilumoreWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lovesulei.ilumore.ilumoreWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F5D26512DEFE1FC0085641B /* Build configuration list for PBXProject "ilumore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5D26622DEFE1FE0085641B /* Debug */,
+				3F5D26632DEFE1FE0085641B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5D26642DEFE1FE0085641B /* Build configuration list for PBXNativeTarget "ilumore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5D26652DEFE1FE0085641B /* Debug */,
+				3F5D26662DEFE1FE0085641B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F6A9A012DF175F0001A88D4 /* Build configuration list for PBXNativeTarget "ilumoreWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F6A9A022DF175F0001A88D4 /* Debug */,
+				3F6A9A032DF175F0001A88D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F5D264E2DEFE1FC0085641B /* Project object */;
+}
